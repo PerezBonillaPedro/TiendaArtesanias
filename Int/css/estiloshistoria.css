@@ -1,0 +1,132 @@
+ 
+  /* Change the link color to #111 (black) on hover */
+.flex-containera{
+  display: flex;
+    margin-top: 50px;
+
+
+}
+.flex-itema h1{
+    color: #000;
+    font-family: arial black;
+}
+.flex-itema{
+    background-color: #14A58D;
+    
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    border-radius: 5px;
+    border: solid 1px #B43D14;
+  border-width: 3px;
+
+
+}
+
+.flex-containerb{
+  display: flex;
+    margin-top: 50px;
+
+}
+.flex-itemb h1{
+    color: #000;
+    font-family: arial black;
+}
+.flex-itemb{
+    background-color: #14A58D;
+    
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    border-radius: 5px;
+    border: solid 1px #B43D14;
+  border-width: 3px;
+
+
+
+}
+
+.imga img{
+  width: 300px;
+  border-radius: 5px;
+}
+.flex-containerc{
+  display: flex;
+    margin-top: 50px;
+
+}
+.flex-itemc h1{
+    color: #000;
+    font-family: arial black;
+}
+.flex-itemc{
+    background-color: #14A58D;
+    
+    padding: 10px;
+    margin: 10px;
+    color: #000;
+    border-radius: 5px;
+    border: solid 1px #B43D14;
+  border-width: 3px;
+
+
+
+
+}
+.imgb img{
+  width: 300px;
+  border-radius: 5px;
+
+}
+.final{
+  margin-top: 50px;
+  display: block;
+  height: 300px;
+
+
+}
+.final img{
+  
+  border-radius: 10px;
+
+  align-content: center;
+
+}
+
+
+
+p {
+  margin-bottom: 1.6em; /*margen inferior funciona como enter entre parrafos*/
+}
+table{
+  background-color: #6EE8C3;
+  /*margin-color: #000000;*/
+  font-family: Arial;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+th, td{
+  border: solid 1px #B43D14;
+  border-width: 3px;
+  padding: 0;
+
+}
+.bjpg img{
+  width: 223px;
+
+}
+
+.djpg img{
+  width: 223px;
+  height: 300px;
+}
+
+.container {
+  width: 85%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+a:hover{
+  text-decoration: none;
+}

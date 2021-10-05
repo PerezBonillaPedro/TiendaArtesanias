@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(212, 208, 201);
+}
+header{
+    background-image: linear-gradient(rgb(250,77,25),brown,rgb(0,0,0));
+    color: white;
+    height: 10%;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.contenedores{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.contenido{
+    width: 70%;
+    background-color: rgb(233, 81, 81);
+    box-shadow: 3px 10px 10px grey;
+}
+.redes{
+    width: 25%;
+}
+aside{
+    width: 30%;
+    background-color: rgb(255, 72, 0);
+    box-shadow: 3px 10px 10px grey;
+}
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;;
+}
+.wid25{
+    width: 25%;
+}
+.wid50{
+    width: 50%;
+}
+.wid75{
+    width: 75%;
+}
+.wid100{
+    width: 100%;
+}
+.wid30{
+    width: 30%;
+}
+#iglogo{
+    width: 15%;
+    margin-top: 3%;
+    display: inline;
+}
+#fblogo{
+    width: 20%;
+    display: inline;
+}
+#walogo{
+    width: 13%;
+    display: inline;
+}
+#desalogo{
+    width: 18%;
+    display: inline;
+}
+.textors{
+    display: inline;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+.rslink{
+    text-decoration: none;
+    color: white;
+}
+.inline{
+    display: inline;
+}
+.inblock{
+    display: block;
+}
+a:hover{
+    color: white;
+}
+.imgcarrusel{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .contenido{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+    .redes{
+        width: 50%;
+    }
+    #infoubi{
+        width: 100%;
+    }
+    #mapa{
+        width: 100%;
+    }
+}

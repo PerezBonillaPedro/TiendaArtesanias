@@ -1,0 +1,31 @@
+form{
+    background-color: rgb(253, 155, 116);
+    width: 60%;
+    border-radius: 30px;
+}
+fieldset{
+    margin: 10px;
+    border-color: black;
+    border-style: groove;
+    background-color: rgb(252, 58, 58);
+    border-radius: 10px;
+}
+input{
+    background-color: white;
+    border-style:groove;
+    border-color: black;
+}
+
+.campos{
+    padding: 1%;
+    border-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    input{
+        width: 95%;
+    }
+    #select{
+        width: 95%;
+    }
+}

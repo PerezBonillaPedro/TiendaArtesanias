@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registrarse</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="../img/logo.png">
+        <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> 
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="stylesheet" href="../css/estilosnav.css">
+        <link rel="stylesheet" href="../css/estilosform.css">
+    </head>
+    <body>
+        <div>
+            <nav>
+                <ul>
+                 <header >
+                     <div>
+                        <center><h1 class="inline"> <img class="inline" src="../img/logo.png" id="logo">Artesanias Tonalá</h1></center>
+                     </div>
+                 </header>
+                    <li><img src=""></li>
+                    <li><a href="../index.html">Portada</a></li>
+                    <li><a href="../html/historia.html">¿Quienes somos?</a></li>
+                    <li><a href="../html/ubicacion.html">Ubicación</a></li>
+                    <li><a class="seleccionado" href="../html/registrarse.html">Registrarse</a></li>
+                    <li><a href="../html/catalogo.html">Catálogo</a></li>
+                </ul>
+            </nav>
+        </div><br><br><br><br><br>
+
+        <center><h1>Registrar un pedido</h1></center>
+        
+        <article >
+            <center> <form action="" method="POST">
+            <div class="contenido"></div>
+             <div class="campos">
+                <fieldset class="contenedor">
+                    
+                    <legend>Datos personales</legend>
+                    <p class="wid50">
+                    <label class="inblock">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Nombre"/></p>
+
+                    <p class="wid50">
+                        <label class="inblock">Apellidos</label>
+                        <input type="text" name="apellidos" placeholder="Apellidos"/>
+                    </p>
+
+                </fieldset>
+                </div>
+
+                <div class="campos">
+                <fieldset class="contenedor">
+                    <legend>Datos contacto</legend>
+                    <p class="wid50">
+                        <label class="inblock">Telefono</label>
+                        <input type="tel" name="telefono" placeholder="Telefono"/>
+                    </p>
+                    <p class="wid50">
+                        <label class="inblock">Correo Electronico</label>
+                        <input type="email" name="correo" placeholder="Correo Electronico"/>
+                    </p>
+                </fieldset></div>
+
+                <div class="campos">
+                <fieldset class="contenedor">
+                    <legend>Cuenta</legend>
+                    <p class="wid50">
+                        <label class="inblock">Usuario</label>
+                        <input type="text" name="usuario" placeholder="Usuario"/>
+                    </p>
+
+                    <p class="wid50">
+                        <label class="inblock">Contraseña</label>
+                        <input type="password" name="contrasenia" placeholder="Contraseña"/>
+                    </p>
+                </fieldset></div>
+
+                <div class="campos">
+                <fieldset class="contenedor">
+                    <legend>Datos artesania</legend>
+                    <p class="wid100">
+                        <label class="inblock">Descripcion del producto (nombre)</label>
+                        <input type="text" name="descripcion" placeholder="Descripcion del producto"/>
+                    </p>
+                    <p class="wid50">
+                        <label class="inblock">Material</label>
+                       <select name="material" id="select">
+                            <option>Elejir</option>
+                            <option>Ceramica</option>
+                            <option>Madera</option>
+                            <option>Fibras vegetales</option>
+                            <option>Mármol, piedra y vidrio</option>
+                            <option>Metal</option>
+                            <option>Piel y cuero</option>
+                            <option>Textil</option>
+                            <option>Joyeria</option>
+                            <option>Instrumenots musicales</option>
+                            <option>Varios</option>
+                        </select>
+                    </p>
+
+                    <p class="wid50">
+                        <label class="inblock">Tamaño</label>
+                        <input type="radio" name="tamanio" value="1"/> <label class="inline">Pequeño</label>
+                        <input type="radio" name="tamanio" value="2"/> <label class="inline">Mediano</label>
+                        <input type="radio" name="tamanio" value="3"/> <label class="inline">Grande</label>
+                    </p>
+                    <p class="wid50">
+                        <label class="inblock">Cantidad de producto</label>
+                        <input type="number" name="cantidad" placeholder="Cantidad de producto"/>
+                    </p>
+                    <p class="wid50">
+                        <label class="inblock">Elejir color predominante</label>
+                        <input type="color" name="color"/>
+                    </p>
+                </fieldset></div>
+
+                <div class="campos">
+                <fieldset class="contenedor">
+                    <legend>Datos Envio</legend>
+                    <p class="wid50">
+                        <label class="inblock">Seleccione el tipo de envio</label>
+                        <input type="radio" name="tipoenvio" value="1"/> <label class="inline">Express</label>
+                        <input type="radio" name="tipoenvio" value="2"/> <label class="inline">Economico</label>
+                    </p>
+                    <p class="wid50">
+                        <label class="inblock">Fecha de envio</label>
+                        <input type="date" name="fechaenvio" placeholder="Fecha de envio"/>
+                    </p>
+
+                    <p class="wid100">
+                        <label class="inblock">Extras</label>
+                            <input type="checkbox" name="regalo"/> <label class="inline">Envolver como regalo</label>
+                            <input type="checkbox" name="novedades"/> <label class="inline">Recibir email con novedades</label>
+                    </p>
+                </fieldset></div>
+
+                <div class="campos">
+                    <fieldset>
+                <input type="submit" value="Enviar"/>
+            </fieldset></div>
+                </div>
+            </form></center>
+        </article>
+    
+    
+    <br><br><br><br><br><br><br>   
+    </body>
+    <footer>
+        <span class="contenedor">
+            <div class="redes"><a href="https://www.instagram.com" target="blank" class="rslink">
+            <span class="contenedores">
+            <img src="../img/ig.png" id="iglogo"><p class="textors">@ArtesaniasTonalá</p>
+            </span> 
+            </div> </a>
+
+            <div class="redes"><a href="https://www.facebook.com/" target="blank" class="rslink">
+            <span class="contenedores">
+            <img src="../img/fb.jpg" id="fblogo"><p class="textors">ArtesaniasTonalá</p>
+            </span>
+            </div></a>
+
+            <div class="redes"><a href="https://www.whatsapp.com/" target="blank" class="rslink">
+            <span class="contenedores">
+            <img src="../img/wa.png" id="walogo"><p class="textors">&nbsp 246-975-35-68</p>
+            </span>
+            </div></a>
+
+            <div class="redes"><a href="" target="blank" class="rslink">
+            <span class="contenedores">
+            <img src="../img/desa.jpg" id="desalogo"><p class="textors">&nbsp Pedro Pérez Bonilla <br>&nbsp&nbspKevin Carrasco Vazquez</p>
+            </span>
+            </div></a>
+        </span>
+        </footer>
+</html>
